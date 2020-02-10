@@ -29,7 +29,6 @@ async function showBatchOfFacts() {
 
 }
 
-
 function showBatchOfFacts2() {
   let facts = axios.get("http://numbersapi.com/1..10?json")
 
